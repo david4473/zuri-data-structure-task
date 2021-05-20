@@ -1,11 +1,18 @@
 
 //TASK ONE
 
-const convertFarhToCelcius = (deg) => {
+/* 
+    A function named "convertFahrToCelsius" 
+    that takes a single parameter 
+    and converts it to a celsius value
+    the function should meet these criterias
+    -   celcius value returned must be corrected to 4 decimal places 
+    -    if the parameter passed is not a valid number or number in a string
+        return a string with the format below:
+        `<value> is not a valid number but a/an <value.type>.`
+ */
 
-    if (arguments.length > 1) {
-        return "invalid number of arguments";
-      }
+const convertFarhToCelcius = (deg) => {
 
     let changeToInt;
 
@@ -28,6 +35,21 @@ console.log(convertFarhToCelcius(0));
 
 
 //TASK TWO
+
+/*
+ 
+Write a function named "checkYuGiOh" that 
+    - takes argument n
+    - create array from 1 to n
+    - replace factor of 2 with "yu"
+    - replace factor of 3 with  "gi"
+    - replace factor of 5 with "oh"
+    - replace multiple factors with their corresponding string and seperate with hyphen
+    - check that parameter is a valid number
+    - return `invalid parameter: ${parameter}` for invalid parameter
+    - log resulting array to console
+    - return resulting array
+ */
 
 const checkYuGiOh = (n) =>{
     const arr = [];
