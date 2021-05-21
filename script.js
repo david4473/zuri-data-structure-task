@@ -12,7 +12,7 @@
         `<value> is not a valid number but a/an <value.type>.`
  */
 
-const convertFarhToCelcius = (deg) => {
+const convertFahrToCelcius = (deg) => {
 
     let changeToInt;
 
@@ -30,7 +30,7 @@ const convertFarhToCelcius = (deg) => {
 }
 
 
-console.log(convertFarhToCelcius(0));
+console.log(convertFahrToCelcius(0));
 
 
 
