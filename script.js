@@ -94,11 +94,16 @@ const checkYuGiOh = (n) =>{
 
     })
 
-    if (isNaN(n)) {
+    let parsedN;
+
+    if (!Array.isArray(n)) {
+        parsedN = parseInt(n);
+    }
+     if (isNaN(parsedN)) {
         return `Invalid Parameter: ${JSON.stringify(n)}`;
     }
     
     return arr;
 }
 
-console.log(checkYuGiOh(10));
+console.log(checkYuGiOh(30));
