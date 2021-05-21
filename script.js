@@ -64,19 +64,19 @@ const checkYuGiOh = (n) =>{
 
      if(num % 2 === 0 && num % 3 === 0  && num % 5 === 0){
 
-            return array[index] = 'yu-gi-oh';
+             array[index] = 'yu-gi-oh';
 
         }else if(num % 2 === 0 && num % 3 === 0 ){
 
-            return array[index] = 'yu-gi';
+             array[index] = 'yu-gi';
 
         }else if(num % 2 === 0 && num % 5 === 0 ){
 
-            return array[index] = 'yu-oh';
+             array[index] = 'yu-oh';
 
         }else if(num % 3 === 0 && num % 5 === 0 ){
 
-            return array[index] = 'gi-oh';
+             array[index] = 'gi-oh';
 
         }else if(num % 2 === 0){
 
@@ -89,7 +89,7 @@ const checkYuGiOh = (n) =>{
         }else if(num % 5 === 0){
 
             array[index] = 'oh';
-            
+
         }
 
     })
